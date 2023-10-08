@@ -131,4 +131,32 @@ body {
 .accommodations .cardtext h4, .accommodations .cardtext p, .accommodations .cardtext div{
    padding: 2px;
 }
-
+.stars {
+   color: #0065FC;
+}
+.popular {
+   display: flex;
+}
+.popular .mostpopularimageframe {
+   width: 250px;
+   height: 175px;
+   overflow: hidden;
+   border-radius: 25px 0px 0px 25px;
+}
+.activitiesimageframe1 {
+   width: 30%;
+   height: 600px;
+   overflow: hidden;
+   border-radius: 25px 25px 25px 25px
+}
+.activitiesimageframe2 {
+   width: 80%;
+   height: 200px;
+   overflow: hidden;
+   border-radius: 25px 25px 25px 25px;
+   padding: 30px;
+}
+.activities {
+   display: flex;
+   gap: 70px;
+}
