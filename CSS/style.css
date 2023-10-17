@@ -160,3 +160,8 @@ body {
    display: flex;
    gap: 70px;
 }
+@media only screen and (max-width: 962px) and (min-width: 768px) {
+   .activities {
+      flex-direction: column;
+   }
+}
